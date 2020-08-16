@@ -5,10 +5,10 @@ def main():
 	scream = input("Enter any sentence: ").upper()
 	action = input("Enter a verb: ")
 
-	print ("It was", time, "o'clock when I heard a knock at the door.\
-	I opened the door and there was a box full of", items, "with a note \
-	saying \"From Mr.", name, ".\" Just as I closed the door I heard a scream \" ",scream, ".\" I froze \
-	in place and all I could do was", action ,".")
+	print ("It was %s o'clock when I heard a knock at the door.\
+	I opened the door and there was a box full of %s with a note \
+	saying \"From Mr. %s .\" Just as I closed the door I heard a scream \" %s \" I froze \
+	in place and all I could do was %s." % (time, items, name, scream, action))
 
 
 
